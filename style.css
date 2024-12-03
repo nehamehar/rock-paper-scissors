@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #795757;
+}
+h1{
+    background-color: #0B192C;
+    align-items: center;
+    color: #8ABFA3;
+    height: 3rem;
+    align-content: center;
+}
+.choices{
+    height: 260px;
+    width: 260px;
+    align-content: space-evenly;
+    background-color: #6A9AB0;
+    margin: 0.5rem;
+    
+}
+.choices:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: #4A4947;
+}
+/* opacity makes image blur */
+/*cursor pointer means when we put cursor on the elemeent it will make pointer to highlight*/
+image{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border-color: black 3px;
+}
+
+.choice{
+    display: flex; /* means means horizontal*/
+    align-items: center;
+    justify-content: center; /* means element would be in be horizontal center straight in web*/ 
+    margin-top: 3rem;
+    
+}
+
+.scoreboard{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    gap: 7rem;
+}
+.score{
+    margin-top: 2rem;
+}
+
+#You, #Device{  /* means two id's have same style*/
+    font-size: 4rem;
+    align-content: space-evenly;
+    display: inline; /* means if we are giving bac color and whole div is color we will use this for take only content part color*/
+    padding: 2px; /* to give this paddding it will create box over the element */
+}
+.results{
+    margin-top: 2.5rem;
+    font-size: 2rem;
+}
+#msg{
+    font-size: 2rem;
+    background-color: #6A9AB0;
+    display: inline; 
+    padding: 1rem;
+    border-radius: 1rem;
+} 
+#msg:hover{
+    background-color: #4A4947;
+    cursor: pointer;
+}
