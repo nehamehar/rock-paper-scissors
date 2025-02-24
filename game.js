@@ -24,24 +24,24 @@ const drawGame = () => {
 const gameWinner = (userWin, computerChoice, userChoice) => {
     if (userWin){
         scoreUser.innerText = userScore;
-        msg.innerText = `Congrats! you win, Comp chooses ${computerChoice}`
+        msg.innerText = `Congrats! you win your ${userChoice} beats ${computerChoice}`
         msg.style.backgroundColor = "green"
         userScore++;
     } else{
         deviceScore++;
         scoreComp.innerText = deviceScore
-        msg.innerText = `You Lose! Comp Chooses ${computerChoice}` // changing inner text in playbox while losing and wining
+        msg.innerText = `You Lose!${computerChoice} beats your ${userChoice}` // changing inner text in playbox while losing and wining
         msg.style.backgroundColor = "red"
     }
 }
 
 // performing all thing
 const playGame = (userChoice) => { 
-    console.log("Your choice = " , userChoice);// user choice
+    //console.log("Your choice = " , userChoice);// user choice
     const computerChoice = genDeivce(); // calling comp choice in playgame
-    console.log("Comp choice = " , computerChoice);
+    //console.log("Comp choice = " , computerChoice);
     if (userChoice===computerChoice){
-        drawGame("")
+        drawGame()
     } else {
         let userWin = true;
         if(userChoice==="Rock"){
