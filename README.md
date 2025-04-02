@@ -1,13 +1,13 @@
-# Stone-Paper-Scissors-Game
-<br>
-<br>
-Welcome to my Game🙋‍♀️,
-<br>
-<br>
-We all familiar with the game of Rock, Paper, Scissors which we play with hands : at the same time, players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.
-<br>
-<br>
-So, by making it different let's play with the Computer.😎
-<br>
-<br>
-Enjoy the Game!
+# Rock, Paper, Scissors Game  
+
+Welcome! 👋  
+
+This is a digital version of the classic **Rock, Paper, Scissors** game. Traditionally, this game is played using hand gestures, where:  
+
+- 🪨 **Rock** crushes ✂️ **Scissors**  
+- ✂️ **Scissors** cut 📄 **Paper**  
+- 📄 **Paper** covers 🪨 **Rock**  
+
+In this version, you'll be playing against the computer. Are you ready to test your luck and strategy? 😎  
+
+Enjoy the game! 🎮  
