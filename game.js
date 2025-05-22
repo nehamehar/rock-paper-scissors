@@ -44,19 +44,16 @@ const playGame = (userChoice) => {
         drawGame()
     } else {
         let userWin = true;
-        if(userChoice==="Rock"){
-            //scissor, paper
-            userWin = computerChoice ==="Paper"? false : true
-        }else if (userChoice==="Paper"){
-            // scissor , rock
-            userWin = computerChoice ==="Scissor" ? false : true
-        }else{
-            // paper , rock
-            userWin = computerChoice ==="Rock" ? false : true
+        if(userChoice === "Rock") {
+            userWin = computerChoice === "Scissor"; // Rock beats Scissor
+        } else if (userChoice === "Paper") {
+            userWin = computerChoice === "Rock";    // Paper beats Rock
+        } else if (userChoice === "Scissor") {
+            userWin = computerChoice === "Paper";   // Scissor beats Paper
+            }
+            gameWinner(userWin, computerChoice, userChoice);
         }
-        gameWinner(userWin, computerChoice, userChoice);
     }
-}
 
 
 option.forEach((choices) =>{       // selecting each div in choices to print something
