@@ -61,5 +61,7 @@ choices.addEventListener("click",() => {   // adding event listener for individu
         const userChoice = choices.getAttribute("id")  //for calling id value through atribute      //  // creating user's choice
         playGame(userChoice) // calling playgame passing value of choiceid to playgame so that it can compare with it
     })
+    
 })
+
 

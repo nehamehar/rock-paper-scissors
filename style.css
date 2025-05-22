@@ -5,9 +5,9 @@
     background-color: #795757;
 }
 h1{
-    background-color: #0B192C;
+    background-color: #333;
     align-items: center;
-    color: #8ABFA3;
+    color: #EFEEEA;
     height: 3rem;
     align-content: center;
 }
@@ -15,7 +15,7 @@ h1{
     height: 260px;
     width: 260px;
     align-content: space-evenly;
-    background-color: #6A9AB0;
+    background-color: #EFEEEA;
     margin: 0.5rem;
     
 }
@@ -66,12 +66,33 @@ image{
 }
 #msg{
     font-size: 2rem;
-    background-color: #6A9AB0;
+    background-color: #000000;
     display: inline; 
     padding: 1rem;
     border-radius: 1rem;
+    color: #EFEEEA;
 } 
 #msg:hover{
     background-color: #4A4947;
     cursor: pointer;
+}
+.foot-op{
+    color: #dddddd;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-text {
+    color:white
+}
+
+.github-logo {
+    font-size: 10rem;
 }
