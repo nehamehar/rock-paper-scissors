@@ -8,7 +8,7 @@ const scoreComp = document.querySelector("#Device");
 
 // creating random computer choice(creating diff fun for each thing for modular code)
 const genDeivce = () =>{
-    const arr = ["Rock", "paper", "scissor"] // creating random choice for device we use arrayas we can use index randomly in array
+    const arr = ["Rock", "Paper", "Scissor"] // creating random choice for device we use arrayas we can use index randomly in array
     const randomInx = Math.floor(Math.random() * 3) // for using random index in array we use random method which is in maths and multiply that to num which we want till then, for removing decimal use
     // math.floor
     return arr[randomInx] // returning random value to array to give index
@@ -46,13 +46,13 @@ const playGame = (userChoice) => {
         let userWin = true;
         if(userChoice==="Rock"){
             //scissor, paper
-            userWin = computerChoice ==="paper"? false : true
-        }else if (userChoice==="paper"){
+            userWin = computerChoice ==="Paper"? false : true
+        }else if (userChoice==="Paper"){
             // scissor , rock
-            userWin = computerChoice ==="scissor" ? false : true
+            userWin = computerChoice ==="Scissor" ? false : true
         }else{
             // paper , rock
-            userWin = computerChoice ==="rock" ? false : true
+            userWin = computerChoice ==="Rock" ? false : true
         }
         gameWinner(userWin, computerChoice, userChoice);
     }
