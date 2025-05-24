@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     text-align: center;
+}
+body{
     background-color: #795757;
 }
 h1{
@@ -12,13 +14,21 @@ h1{
     align-content: center;
 }
 .choices{
-    height: 260px;
-    width: 260px;
+    width: 180px;    /* smaller width */
+     height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-content: space-evenly;
-    background-color: #EFEEEA;
+    border-radius: 50%;
+    overflow: hidden; 
+    background-color: transparent;
     margin: 0.5rem;
+    padding: 2px; /* Remove padding */
+    margin-top:40px
     
 }
+
 .choices:hover{
     opacity: 0.7;
     cursor: pointer;
@@ -101,11 +111,10 @@ image{
 
 
 .footer-text {
-    color:white
-    margin-left:10px
+    color:white;
 
 }
 
 .github-logo {
-    font-size: 10rem;
+    font-size: 1.7rem;
 }
