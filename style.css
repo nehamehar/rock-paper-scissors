@@ -99,7 +99,7 @@ image{
   color: white;
   position: fixed;
   bottom: 0;
-  padding: 3px 10rem;
+  padding: 4px 10rem;
   font-size: 14px;
   left: 0;
   right: 0;
@@ -107,11 +107,13 @@ image{
 
 .text-decoration-none{
     text-decoration: none;
+    font-size:1rem
 }
 
 
 .footer-text {
     color:white;
+    font-size:0.9rem
 
 }
 
