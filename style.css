@@ -76,14 +76,14 @@ image{
 }
 #msg{
     font-size: 2rem;
-    background-color: #000000;
+    background-color:black;
     display: inline; 
     padding: 1rem;
     border-radius: 1rem;
     color: #EFEEEA;
 } 
 #msg:hover{
-    background-color: #4A4947;
+    background-color:rgba(15, 14, 14, 0.91);
     cursor: pointer;
 }
 .foot-op{
