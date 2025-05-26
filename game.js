@@ -24,13 +24,13 @@ const drawGame = () => {
 const gameWinner = (userWin, computerChoice, userChoice) => {
     if (userWin){
         scoreUser.innerText = userScore;
-        msg.innerText = `Congrats! you win your ${userChoice} beats ${computerChoice}`
+        msg.innerText = `Victory! 🎉 Your ${userChoice} crushes ${computerChoice}`
         msg.style.backgroundColor = "green"
         userScore++;
     } else{
         deviceScore++;
         scoreComp.innerText = deviceScore
-        msg.innerText = `You Lose!${computerChoice} beats your ${userChoice}` // changing inner text in playbox while losing and wining
+        msg.innerText = `Oops! You got crushed — ${computerChoice} beats ${userChoice}` // changing inner text in playbox while losing and wining
         msg.style.backgroundColor = "red"
     }
 }
