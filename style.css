@@ -89,7 +89,7 @@ image{
 .foot-op{
     color: #dddddd;
     margin-top: 2px;
-    font-size: 14px;
+    font-size: 14px; 
 }
 .footer-bottom {
   display: flex;
