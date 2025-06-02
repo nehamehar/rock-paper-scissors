@@ -198,10 +198,11 @@ image{
     height:500px;
 } 
 .footer-bottom {
-padding: 2rem 1rem;  /* Just slightly inset */
+padding: 2rem 0.1rem;  /* Just slightly inset */
     flex-direction: row;           /* KEEP inline */
     justify-content: space-between; /* KEEP left-right aligned */
-    text-align: left;    
+    text-align: left;  
+    bottom:0px;  
 }
 
 .text-decoration-none{
@@ -274,7 +275,7 @@ padding: 2rem 1rem;  /* Just slightly inset */
   gap: 1rem;
   position: fixed;
   bottom: 0;
-  padding: 1.3rem 10rem;
+  padding: 1.4rem 4.5rem;
  font-size: 14px;
   left: 0;
   right: 0;
