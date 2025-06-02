@@ -202,7 +202,8 @@ padding: 2rem 0.1rem;  /* Just slightly inset */
     flex-direction: row;           /* KEEP inline */
     justify-content: space-between; /* KEEP left-right aligned */
     text-align: left;  
-    bottom:0px;  
+    bottom:0px;
+    position:fixed;  
 }
 
 .text-decoration-none{
